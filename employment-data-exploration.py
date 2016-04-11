@@ -34,7 +34,7 @@ def get_histogram(data_to_use):
 unemployment_rate_list = {}
 min_value = 100
 max_value = 0
-csv_reader = csv.reader(open('csv-source.csv'), delimiter=",")
+csv_reader = csv.reader(open('ex2-csv-source.csv'), delimiter=",")
 for row in csv_reader:
     id = row[1] + row[2]
     unemployment_rate = float(row[8].strip())
