@@ -72,14 +72,21 @@ Steps
 Results
 -------
 ![Map](ex2-csv-colorized-map.png)
+
+Dark Green - Lowest rate (best result)
+
+Yellow - Average
+
+Dark Red - Highest rate (worst result)
+
+
 ![Labeled Map](ex2-csv-labeled-map.png)
+
 ![Histogram](ex2-csv-histogram.png)
 
 * I've also considered adding a bar graph using Matplotlib's ```plt.bar()``` but the X ticks were to wide.
 
-Dark Green - Lowest rate (best result)
-Yellow - Average
-Dark Red - Highest rate (worst result)
+
 
 We can see that in most counties, the rate is about 7.5, which is pretty normal.
 The problematic areas with a very high rate are mostly in the south of the US: southern California, Arizona, Alabama, and western Alaska.
